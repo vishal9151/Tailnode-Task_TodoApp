@@ -1,0 +1,110 @@
+/* App container */
+
+.top-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: fit-content;
+  background-color: #ff4444;
+  align-items: center;
+}
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #edd30bf8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width:600px;
+  margin-top: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+  width: 100vw;
+  padding: 10px;
+}
+/* Header */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input bar */
+input[type="text"] {
+  width: 90%;
+  font-size:1.2rem;
+  padding: 15px 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  outline:none;
+  transition: all .2s ease-in-out;
+  font-family:"Poppins" , sans-serif;
+}
+input[type="text"]:focus{
+ 
+  border:2px solid purple;
+  
+}
+input[type="text"]::placeholder{
+  font-size:1.2rem;
+  font-family:"Poppins" , sans-serif;
+  font-weight: 300;
+}
+
+/* TODO card */
+  .todo-card {
+    font-size:1.2rem;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: all 0.2s ease;
+    box-shadow:5px 5px 10px  lightgray;
+  }
+  .todo-card:hover{
+    transform: scale(1.05);
+    background-color: #ff4444;
+  }
+
+.todo-card.completed {
+  background-color: #e0e0e0;
+  text-decoration: line-through;
+}
+
+/* Reset button */
+.reset-button {
+
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 20px 16px;
+  border-radius: 20%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-bottom:10px;
+  width:95%;
+  transition: all .2s ease-in-out;
+  box-shadow:5px 5px 10px  lightgray;
+}
+
+
+.reset-button:hover {
+  background-color: whitesmoke;
+  color: black;
+  transform: scale(1.05);
+}
+
+/* Completed list section */
+.completed-list {
+  margin-top: 20px;
+}
+
